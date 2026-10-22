@@ -1,0 +1,68 @@
+
+# ==========================================
+# ENTORNOS VIRTUALES DE PYTHON
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# PYTHON - CACHE Y ARCHIVOS COMPILADOS
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# ==========================================
+# JUPYTER NOTEBOOK
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# VS CODE
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ==========================================
+# VARIABLES DE ENTORNO Y CREDENCIALES
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# ARCHIVOS TEMPORALES Y LOGS
+# ==========================================
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# DATOS LOCALES Y MODELOS GENERADOS
+# ==========================================
+# Descomentar según las necesidades:
+# data/
+# datasets/
+# *.csv
+# *.parquet
+# *.pkl
+# *.joblib
